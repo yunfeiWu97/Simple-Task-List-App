@@ -13,15 +13,16 @@ The application is a simple task management system where you can add and view ta
 ## Getting Started
 
 1. Install PHP dependencies
-bash
-composer install
+`bash`
+`composer install`
 
 2. Install PHP dependencies
-bash
-composer install
+`bash`
+`composer install`
 
 3. Configure .env file
 Update your .env with PostgreSQL details:
+
 env
 DB_CONNECTION=pgsql
 DB_HOST=127.0.0.1
@@ -31,16 +32,16 @@ DB_USERNAME=postgres
 DB_PASSWORD=your_password
 
 4. Run database migrations
-bash
-php artisan migrate
+`bash`
+`php artisan migrate`
 
 5. Compile assets
-bash
-npm run dev
+`bash`
+`npm run dev`
 
 6. Start the server
-bash
-php artisan serve
+`bash`
+`php artisan serve`
 
 Ready to visit at `http://127.0.0.1:8000`
 
